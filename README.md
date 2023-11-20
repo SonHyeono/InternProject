@@ -1,6 +1,25 @@
 # InternProject
 
 
+conda create --name {가상환경이름명} python=3.7.9
+
+
+pip  --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org download python-docx -d test
+
+pip freeze > req.txt
+
+
+pip install --no-index -f test -r test.txt
+
+
+---
+python == 3.7.9
+pywin32
+실제로 깔리는 건: pywin32-306-cp37-cp37m-win_amd64.whl
+
+
+
+"""
 # https://asecurity.dev/entry/Python-%EB%AC%B4%EB%A3%8C%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EB%B2%88%EC%97%AD-API-TOP-4
 # https://asecurity.dev/entry/Python-googletrans-Type-None-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0
 # https://github.com/ssut/py-googletrans
@@ -61,3 +80,5 @@ def data_save():
 # https://asecurity.dev/entry/Python-%EB%AC%B4%EB%A3%8C%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8A%94-%EB%B2%88%EC%97%AD-API-TOP-4
 # https://asecurity.dev/entry/Python-googletrans-Type-None-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0
 # https://github.com/ssut/py-googletrans
+
+"""
